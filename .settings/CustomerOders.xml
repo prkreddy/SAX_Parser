@@ -1,0 +1,84 @@
+<Root>
+	<Customers>
+		<Customer CustomerID="GREAL">
+			<CompanyName>Great Food Market</CompanyName>
+			<ContactTitle>Marketing Manager</ContactTitle>
+			<Phone>+91 80 3532-7555</Phone>
+			<FullAddress>
+				<Address>2732 Majestic Main Road</Address>
+				<City>Bangalore</City>
+				<Region>Karnataka</Region>
+				<PostalCode>560001</PostalCode>
+				<Country>INDIA</Country>
+			</FullAddress>
+		</Customer>
+		<Customer CustomerID="HUNGC">
+			<CompanyName>Hungry Coyote Import Store</CompanyName>
+			<ContactTitle>Sales Representative</ContactTitle>
+			<Phone>+91 80 3532-6874</Phone>
+			<Fax>+91 80 3532-2376</Fax>
+			<FullAddress>
+				<Address>516, Chikpet Main St.</Address>
+				<City>Bangalore</City>
+				<Region>Karnataka</Region>
+				<PostalCode>560002</PostalCode>
+				<Country>INDIA</Country>
+			</FullAddress>
+		</Customer>
+	</Customers>
+	<Orders>
+		<Order OrderID="3847">
+			<CustomerID>GREAL</CustomerID>
+			<EmployeeID>6</EmployeeID>
+			<OrderDate>1997-05-06T00:00:00</OrderDate>
+			<RequiredDate>1997-05-20T00:00:00</RequiredDate>
+		</Order>
+		<Order OrderID="3848">
+			<CustomerID>GREAL</CustomerID>
+			<EmployeeID>8</EmployeeID>
+			<OrderDate>1997-07-04T00:00:00</OrderDate>
+			<RequiredDate>1997-08-01T00:00:00</RequiredDate>
+		</Order>
+	</Orders>
+	<OrderDetails OrderID="3847">
+		<OrderItem>
+			<Product>Soap</Product>
+			<Quantity>3</Quantity>
+			<Price>24.50</Price>
+		</OrderItem>
+		<OrderItem>
+			<Product>Hair Oil</Product>
+			<Quantity>1</Quantity>
+			<Price>89.99</Price>
+		</OrderItem>
+	</OrderDetails>
+	<OrderDetails OrderID="3848">
+		<OrderItem>
+			<Product>Soap</Product>
+			<Quantity>5</Quantity>
+			<Price>4.95</Price>
+		</OrderItem>
+		<OrderItem>
+			<Product>Detergent</Product>
+			<Quantity>3</Quantity>
+			<Price>66.00</Price>
+		</OrderItem>
+	</OrderDetails>
+	<OrderDetails OrderID="3548">
+		<OrderItem>
+			<Product>Hair Oil</Product>
+			<Quantity>10</Quantity>
+			<Price>.99</Price>
+		</OrderItem>
+		<OrderItem>
+			<Product>Soft Drink</Product>
+			<Quantity>15</Quantity>
+			<Price>29.00</Price>
+		</OrderItem>
+		<OrderItem>
+			<Product>Chocolate</Product>
+			<Quantity>8</Quantity>
+			<Price>6.99</Price>
+		</OrderItem>
+	</OrderDetails>
+</Root>
